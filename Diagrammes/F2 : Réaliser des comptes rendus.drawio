@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T10:23:07.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8e98LpgrlZqhrB1e2LiB" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T10:24:32.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="3B0TyJZthwf0wu6HRh_G" version="15.8.9" type="github">
   <diagram id="cHjnoLlx2mNpabVTZO-V" name="Page-1">
     <mxGraphModel dx="868" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,6 +142,9 @@
         <mxCell id="-n7K_DKkgM0FNg-m0orN-51" value="Semi-Automatiser la forme/ structure des comptes rendus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n7K_DKkgM0FNg-m0orN-53" target="-n7K_DKkgM0FNg-m0orN-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-n7K_DKkgM0FNg-m0orN-53" value="Utiliser l&#39;alphabet phonétique de l&#39;OTAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -156,6 +159,15 @@
         </mxCell>
         <mxCell id="-n7K_DKkgM0FNg-m0orN-59" value="écran&lt;br&gt;plateforme visuelle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n7K_DKkgM0FNg-m0orN-62" target="-n7K_DKkgM0FNg-m0orN-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-62" value="Convertir automatiquement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-64" value="Algo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="230" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
