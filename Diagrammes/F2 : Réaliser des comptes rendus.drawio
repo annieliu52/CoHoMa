@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T10:05:41.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="J_UP8-9KFaOiL4sYi2db" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T10:12:14.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="VesRjgZcpZddY96YStxF" version="15.8.9" type="github">
   <diagram id="cHjnoLlx2mNpabVTZO-V" name="Page-1">
     <mxGraphModel dx="868" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,13 +16,7 @@
         <mxCell id="-n7K_DKkgM0FNg-m0orN-1" value="F2 : Réaliser des comptes rendus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-n7K_DKkgM0FNg-m0orN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n7K_DKkgM0FNg-m0orN-2" target="-n7K_DKkgM0FNg-m0orN-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-n7K_DKkgM0FNg-m0orN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n7K_DKkgM0FNg-m0orN-2" target="-n7K_DKkgM0FNg-m0orN-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-n7K_DKkgM0FNg-m0orN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-n7K_DKkgM0FNg-m0orN-2" target="-n7K_DKkgM0FNg-m0orN-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-n7K_DKkgM0FNg-m0orN-2" value="Acquérir les données" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,17 +37,32 @@
         <mxCell id="-n7K_DKkgM0FNg-m0orN-5" value="Respecter le gabarit des comptes rendus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-n7K_DKkgM0FNg-m0orN-6" value="Acquérir si piège désactivable ou non" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-6" value="Acquérir l&#39;évènement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="-280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-n7K_DKkgM0FNg-m0orN-7" value="Acquérir si piège désactivé ou non" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-n7K_DKkgM0FNg-m0orN-14" value="Acquérir si piège désactivé ou non" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-n7K_DKkgM0FNg-m0orN-16" value="Utiliser l&#39;alphabet phonétique de l&#39;Otan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-19" value="Découverte d&#39;un piège" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-21" value="- découverte d’un piège ;&#xa;- réaction à un impondérable ;&#xa;- problème technique sur un satellite ;&#xa;- sortie d’un opérateur embarqué ;&#xa;- reprise de la progression ;&#xa;- départ d’un satellite aérien vers la base arrière ;&#xa;- etc…" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-450" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-22" value="Réaction à un impondérable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-23" value="Problème technique sur un satellite" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-24" value="Sortie d&#39;un opérateur embarqué" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-25" value="Reprise de la progression" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n7K_DKkgM0FNg-m0orN-26" value="Départ d&#39;un satellite aérien vers la base arrière" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="20" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
