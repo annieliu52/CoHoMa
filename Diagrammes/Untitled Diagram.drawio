@@ -1,41 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T10:52:34.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YHWQeeFqJ09iCftD2Hbo" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T19:30:41.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="OsGAVE-uwaY6kyQXO06k" version="15.9.4" type="github">
   <diagram id="7iIN9meiuznvdkrw8BYY" name="Page-1">
-    <mxGraphModel dx="1157" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-2">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-3">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-4">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-6">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-11">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="eRgWJZlX0qM9WgS-55uM-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-1" value="F0 : Amener le véhicule maître VAB jusqu&#39;au point d&#39;arrivée" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WlWHGlwmDKpz2CA8kaF1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-1" target="WlWHGlwmDKpz2CA8kaF1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-1" value="F0 : Amener le véhicule maître VAB jusqu&#39;au point d&#39;arrivée" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-2" value="F1 : Désactiver Les pièges" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-2" value="F1 : Désactiver Les pièges" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-3" value="F2 : Réaliser des comptes rendus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-3" value="F2 : Réaliser des comptes rendus" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-4" value="F3 : Faire un point de situation à l&#39;arrivée sur chaque LIMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-4" value="F3 : Faire un point de situation à l&#39;arrivée sur chaque LIMA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-6" value="F4 : Respecter les zones d&#39;exclusion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-6" value="F4 : Respecter les zones d&#39;exclusion" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRgWJZlX0qM9WgS-55uM-11" value="F5 : Lui donner les consignes pour se déplacer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WlWHGlwmDKpz2CA8kaF1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRgWJZlX0qM9WgS-55uM-11" target="WlWHGlwmDKpz2CA8kaF1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRgWJZlX0qM9WgS-55uM-11" value="F5 : Lui donner les consignes pour se déplacer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WlWHGlwmDKpz2CA8kaF1-1" value="Opérateur&lt;br&gt;(consignes orales)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WlWHGlwmDKpz2CA8kaF1-3" value="F6 : Passer par les points de passage obbligés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
