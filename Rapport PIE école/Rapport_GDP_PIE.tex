@@ -1,0 +1,226 @@
+\documentclass[11pt]{article}
+
+% Packages and macros go here
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{amsfonts}
+\usepackage{epstopdf}
+\usepackage[lined,boxed]{algorithm2e}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{esvect}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+
+
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{authblk}
+\usepackage[noabbrev]{cleveref}
+\crefformat{equation}{(#2#1#3)}
+
+
+\newcommand{\piot}{\frac{1}{2}}
+\newcommand{\demi}{\frac{1}{2}}
+\newcommand{\tu}{\tilde{u}}
+\newcommand{\tG}{\tilde{G}}
+\newcommand{\ie}{\textit{i.e }}
+
+\topmargin -.5in
+\oddsidemargin 0pt
+\textheight 8.8in
+\textwidth 6.5in
+
+\title{Rapport Gestion de Projet: Cohoma}
+
+\author{Annie Liu, Thibault Sagnard, Désiré Ouedrago, Ewen Maheva, Alexis Anne}
+
+\begin{document}
+
+\maketitle
+
+\section{Définition du projet}
+
+\subsection{Enjeux et objectifs}
+
+Le projet Cohoma (contraction de collaboration homme machine) est un challenge lancé par l’armée de terre. Pour l'armée, il s'agit de voir les possibilités technologiques sur la collaboration homme-machine et d’impliquer des partenaires qu’ils soient industriels ou universitaires. 
+Concrètement ce challenge consiste à développer des robots (dits satellites) explorateurs qui vont être commandés depuis l’intérieur d’un blindé et devoir repérer et désactiver des pièges (qui se présentent sous la forme de cube rouge d’un mètre cube). Ces satellites doivent être au moins trois avec au minimum un satellite terrestre et un satellite aérien. La principale difficulté de ce challenge est que les robots doivent être le plus autonome possible pour libérer de la charge mentale aux opérateurs qui devront répondre à un questionnaire en parallèle et répondre à des imprévus (appelés impondérables).
+
+Notre objectif est donc de mettre en place une flotte qui puisse répondre à ce challenge, à savoir mettre en, place au moins un drône volant qui puisse balayer une zone et détecter des pièges automatiquement et au moins un robot terrestre (nous avons choisi des robots “Husky”) qui doivent pouvoir se déplacer et détecter les pièges dans un milieu forestier. Ces robots doivent être le plus autonomes possible. Nous devons donc implémenter des algorithmes pour pouvoir déplacer les satellites, communiquer avec eux, qu’ils détectent les obstacles et pièges et évaluent leurs positions.
+
+\subsection{Périmètre du projet}
+
+Le cœur du projet est la coopération homme-machine, ainsi la communication est primordiale. Nous nous attacherons donc à mettre en place un système de communication entre les satellites et les opérateurs dans le blindé qui soit suffisamment robuste et qui ait un débit suffisamment élevé pour pouvoir transporter les informations souhaitées (en particulier un flux vidéo).
+Au vu du savoir-faire du labo U2IS avec qui nous travaillons et des contraintes juridiques sur les drônes volants à l’ENSTA nous nous concentrerons principalement sur le robot terrestre Husky. Pour le drône nous implémenterons un simple algorithme pour balayer une zone et détecter les pièges rouges. 
+Le Husky est plus compliqué car il doit œuvrer dans un milieu boisé avec de nombreux obstacles, nous voulons cependant qu’il puisse de façon autonome fouiller cette zone. Nous voulons également pouvoir reprendre le contrôle manuel du robot au cas fort probable où il se coince. 
+Comme nous l’avons dit précédemment les opérateurs seront dans un véhicule blindé en mouvement, devront répondre à un questionnaire et seront soumis à des sollicitations extérieures. Nous devons alors développer une interface graphique propre et facile à utiliser en conditions réelles.
+
+\section{Risque sur le déroulement du projet }
+
+\subsection{Définition des risques}
+
+Les risques principaux qui menacent le projet sont :
+-un manque de temps, le projet est très ambitieux au vu de nos capacités techniques et de notre maîtrise des outils, nous risquons de ne pas avoir assez de temps pour avoir un livrable final convenable\\
+- covid, il semble difficile de ne plus prendre en compte le risque de nouvelles contraintes liées au covid (confinements, fermeture des labos, difficulté de rencontrer des intervenants extérieurs…) qui ralentiraient le projet.\\
+-un désengagement de l’équipe une fois qu’une partie des membres de celle-ci seront partis. \\
+-la difficulté de prendre en main les outils pour piloter et programmer les satellites pourrait fortement ralentir l’équipe voire la bloquer à un moment du projet. \\
+-s'entêter sur des aspects spécifiques qui bloquerait le projet. \\
+
+\subsection{Mesures à mettre en place pour palier les risques}
+
+Ce qu’il faut mettre en place pour éviter que ces risques se concrétisent:
+
+-prendre en compte dans le planning le départ de certains membres et notamment faire en sorte de ne pas perdre une expertise cruciale au projet avec leur départ. \\
+-être agile sur le déroulement du projet pour pouvoir bouger les éléments qui peuvent se faire à distance avec ceux qui requiert obligatoirement du présentiel. \\
+-le projet est vaste et il faut faire des choix sur ce que l’on veut développer ou non, il faut savoir repérer les voies sans issues. \\
+
+
+\section{L'équipe}
+
+
+\subsection{Composition de l'équipe}
+Composition de l’équipe :
+
+Chef de Projet : Thibault SAGNARD
+Equipe : Désiré OUEDRAOGO, Ewen MAHEVAS, Annie LIU, Alexis ANNE
+Encadrants : Thibault TORALBA, Clément YVER, Alexandre CHAPOUTOT
+
+\subsection{Répartition des tâches}
+
+-    Pôle interface graphique : affichage sur un écran des éléments essentiels, de la progression des éclaireurs, des emplacements des pièges, et des notifications importantes (découverte nouveau piège…) : Annie LIU \\
+-    Pôle Traitement des images : reconnaissance des pièges et des obstacles en liant la caméra et les outils d’Open CV, lecture des QRC Codes : Désiré OUEDRAOGO \\
+-    Pôle communication des drones, Husky et VAB : transmission des images, vidéos, données (position, instructions…) : Ewen MAHEVAS \\
+-    Algorithmes et stratégies de déplacements des différents appareils (2 Husky, 2 drones, VAB) : Alexis ANNE \\
+-    Responsable ROS : approfondissement des connaissances du logiciel et coordination des pôles qui utilisent ROS : Thibault SAGNARD \\
+
+Parties Prenantes du Projet :
+-    Notre équipe, qui travaillons pour la réussite du projet \\
+-    L’ENSTA Paris ; l’école finance une partie des robots, et la réussite du projet serait bénéfique pour la renommée de l’école \\
+-    Le Battle Lab Challenge, qui organise et jugera le concours (maître d’œuvre) \\
+-    L’armée de terre, qui utiliserait nos éclaireurs pour la reconnaissance des terrains à la guerre \\
+
+\subsection{Organisation et livrables}
+
+Nous avons rapidement désigné un chef de projet ; sur une conversation messenger, celui-ci rappelle en amont les différentes séances et les objectifs de celles-ci. Nous fixons les horaires de rendez-vous avec nos enseignants référents sur une conversation Teams.
+Au début d’une séance, nous commençons par un rapide aperçu du travail fait la dernière fois, sur celui à réaliser durant la séance, et si quelqu’un a des questions/suggestions/idées nous en discutons. Nous faisons cet aperçu avec nos enseignants référents : Clément Yver et Thibault Toralba, ainsi qu’avec Alexandre Chapoutot parfois. Nous leur exposons nos interrogations et nos questions de la semaine dernière et nous en discutons. Toutes nos discussions sont prises en notes pour garder une trace de notre avancée, ceci sur format papier ou ordinateur.
+Puis après avoir réparti les rôles, nous travaillons chacun de notre côté, mais dans la même pièce, ce qui nous permet de poser facilement des questions si nous en avons. Nous mettons nos différents travaux dans un dossier github.
+A la fin de la séance, chacun fait un débriefing de ce qu’il a avancé, nous fixons le travail à faire avant la prochaine séance, et nous rédigeons le compte-rendu de la séance, ce compte-rendu se trouvant sur un google doc partagé.
+Le chef de projet rédige à la fin de la séance un récapitulatif de ceci sur la conversation messenger. \\
+\\
+
+Le rapport initial de description du projet (à rendre le 15 janvier 2022) doit contenir les enjeux et objectifs du projet, le périmètre, la composition de l'équipe et la répartition des rôles, les parties prenantes du projet, la matrice SWOT, l'organisation projet, les livrables du projet, le budget prévu, l'analyse de risque, la planification (GANTT initial).\\
+\\
+Concernant les différents livrables, il faudra bien les détailler en distinguant :
+· les livrables "matériel" (capteurs, robot, bateau, voiture...) ou "logiciel" (code, appli, site web,...) \\
+· les livrables "documentaires" : rapport d'étude, dossier de faisabilité (en vue d'une éventuelle réalisation ultérieure), documents liés au produit (détaillés ci-dessous) \\
+
+\subsection{Budget}
+
+-    Prix des Husky : le Husky complet, avec caméra, bras manipulateur, adaptateur… coûte 61 700€ TTC, le Husky seul coûte 25 500 TTC \\
+-    Prix des drones anafi = 700€ sans option, avec la VR on arrive à 900€ \\
+-    Autres : le BLT nous donne 35 000€ TTC que l’on peut utiliser pour les modifications éventuelles (l’école possédait déjà un Husky), sous condition que notre offre soit acceptée \\
+
+
+\appendix
+
+\section{Rapports de séance}
+
+Liste des rapports rédigés à chaque fin de scéance.
+ 
+\subsection{Vendredi 1 octobre}
+
+Préambule : \\
+
+Lors de cette présentation du déroulement du projet en amphi, les intervenants nous ont parlé de la gestion des deadlines, de l’équipe et du travail. Nous avons aussi eu un enseignement sur les émissions carbones.
+
+\subsection{Vendredi 8 octobre} 
+
+Séance n°1 : \\
+
+Cette première rencontre fut assez brève, puisque nous n’avions pas encore les consignes officielles de l’équipe organisatrice de CoHoMa. Nous avons découpé le sujet, et réfléchi aux différentes parties du projet en spéculant sur les attentes du challenge.
+
+\subsection{Vendredi 15 octobre} 
+
+Séance n°2 : \\
+
+Cette seconde rencontre fut la première au complet - nous les cinq élèves de l’équipe - accompagnés de nos tuteurs sur le projet ; messieurs Thibault Toralba et Alexandre Chapoutot. Monsieur Toralba nous a expliqué ce qu’il savait du challenge, mais le règlement officiel du challenge n’était toujours pas sorti. Nous avons visité les locaux où nous pouvions travailler, et on nous a montré le matériel que nous serions susceptible d’utiliser au long du challenge ; robot Husky, drones, logiciels…
+
+\subsection{Vendredi 12 octobre}
+
+Séance n°3 :\\
+
+Ça y est, le règlement officiel du challenge est sorti ! Nous l’avons lu attentivement, compris les attentes des organisateurs. Sur le fichier résumé\textunderscore règlement.docx un résumé de ces attentes est rédigé. Nous avons commencé à réfléchir rapidement aux différentes tâches que l’on pouvait se répartir ; parties plus informatiques avec l’outil ROS (permet de développer des logiciels pour la robotique), ou plus physique avec les composants du robot Husky que nous allons utiliser.
+ 
+\subsection{Mercredi 17 novembre}
+
+Séance n°4 :\\
+
+Première démonstration du robot Husky, un stagiaire du laboratoire nous a fait une démonstration pour que nous puissions nous rendre compte de la vitesse du Husky et de ses capacités. Nous avons rencontré le nouvel ingénieur du laboratoire Clément Yver qui va travailler sur nous sur le projet et en particulier le robot. Nous avons commencé à décomposer le Husky et séparer les composants. Nous avons aussi établi une première décomposition fonctionnelle du projet.
+Objectifs de la première séance: raffiner et mettre au propre la décomposition fonctionnelle, et continuer à découvrir le robot.
+
+\subsection{Vendredi 03 décembre} 
+
+Séance n°5 :\\
+
+Nous avons fait un  CR de la visite de la base effectuée hier, CR avec Thibault Toralba ; points de difficulté, nécessité d'avancer plus vite, importance du rapport de janvier
+Ce qu’on a fait ; diagramme FAST
+recherche d’algorithmes de navigation (thèse trouvée)
+à faire pour la prochaine séance : 
+Base de gendarmerie ; zone 3 de la base pour le challenge, très pentu, hautes herbes et arbustes + végétation plus dense en mai ; pbl avec les capteurs (détection herbes…) : analyse vidéo très importante (1 personne à plein temps sur l’analyse des vidéos ???)
+~1,5*1 km. Pbl=vitesse de l’Husky !!
+Faire des tests avec l’Husky en termes de pentes ; dresser une liste des choses à tester et après on bloque une date pour tester
+2 Husky + 2 Drones Anafi ; lien avec ROS ?? (Packages les mêmes ? compatibilité ?)
+VR solution ???
+Attention aux trajectoires pour que le robot ne se renverse pas
+Rapport à la concurrence (Thalès ; budget~1million + robot 1 tonne).
+è Drones très importants pour réduire la distance de l’Husky
+è Bcp de travail sachant qu’on va être plus que 1 ou 2
+Prochain jalon ; décomposer la stratégie et les moyens pour la détection, décomposer les tâches !!! ; navigation, détecter un cube sur une image, lecture de QR Code… tant qu’il y a plusieurs solutions on doit encore décomposer
+Cartographie 3D chaud
+ 
+\subsection{Vendredi 10 décembre} 
+
+Séance n°6 : \\
+
+Brainstorming  autour de la décomposition fonctionnelle pour commencer à évoquer des solutions techniques. Décomposition et répartition des tâches :\\
+-interface graphique: Annie\\
+-traitement d’images: Désiré \\
+-communications Satellites/Base centrale et Sat/Sat: Ewen \\
+-Expert en Ros : Thibault \\
+
+Réunion surprise sur teams de gestion de projet avec un responsable en gestion de projet. Il faut faire en priorité les diagrammes de GDP pour à rendre dans le livable de mi-janvier à savoir: -le WBS, le Gantt et le SWOT
+
+\subsection{Mardi 14 décembre}
+Séance n°7 : \\
+
+Nous avons bien avancé sur le rapport intermédiaire que l’on doit rendre à l’école le 15/01/22 (GANTT, SWOT…)
+faut qu’on voit les algo de ROS disponibles déjà via la grosse communauté, et ceux que l’on devra coder
+prendre contact avec les gens du labo spécialistes pour qu’ils nous donnent des idées de solutions
+
+
+\subsection{Merredi-Vendredi 15 et 17 décembre}
+
+Séance 8:
+
+Réunion le mercredi avec les responsables de projet Thibault Toralbat et Clément pour que chacun puisse rentrer en contact avec des chercheurs qui concerne sa partie.\\
+Nous avons continué la séance le vendredi, où nous avons fait un compte rendu de la réunion pour les absents. Nous avons continué le rapport de gestion de projet pour le 15 janvier et réparti un peu mieux les taches pour les vacances.
+
+
+
+\end{document}
