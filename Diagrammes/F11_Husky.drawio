@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2022-01-07T15:03:50.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="6Fe2Fp4YaBYA1KAtXk4K" version="16.2.2" type="github" pages="2">
+  <diagram id="E948EfgCOJVRb2plcjeF" name="Page-1">
+    <mxGraphModel dx="868" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-1" target="jdlnI0Il5XYoSt5V_vpM-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-1" target="jdlnI0Il5XYoSt5V_vpM-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-1" target="jdlnI0Il5XYoSt5V_vpM-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-1" value="F11 :Détecter les pièges" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-17" target="jdlnI0Il5XYoSt5V_vpM-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-17" target="jdlnI0Il5XYoSt5V_vpM-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-17" value="grâce à la couleur" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-18" value="détection en le prenant pour un obstacle/en le heurtant" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-20" target="jdlnI0Il5XYoSt5V_vpM-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-20" target="jdlnI0Il5XYoSt5V_vpM-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-20" target="jdlnI0Il5XYoSt5V_vpM-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-20" value="contrôle de l&#39;utilisateur via la &lt;b&gt;caméra&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-23" target="jdlnI0Il5XYoSt5V_vpM-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000FF;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-23" target="jdlnI0Il5XYoSt5V_vpM-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-23" target="jdlnI0Il5XYoSt5V_vpM-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-23" value="envoie de la position après détection par drone" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-25" target="jdlnI0Il5XYoSt5V_vpM-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-25" value="F1_Drone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="530" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-27" target="jdlnI0Il5XYoSt5V_vpM-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-27" value="&lt;font color=&quot;#000000&quot;&gt;demande à l&#39;utilisateur si c&#39;est un piège&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-29" value="validation de l&#39;utilisateur" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="130" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-31" value="&lt;font color=&quot;#3333ff&quot;&gt;cf. communication Husky/VAB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="720" y="80" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-33" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;caméra&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#3333FF;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="jdlnI0Il5XYoSt5V_vpM-34" target="jdlnI0Il5XYoSt5V_vpM-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-34" value="lire la couleur de la caméra et l&#39;associer à un élément du décor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-37" value="entraîner le modèle pour reconnaître les éléments via couleur/forme" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-39" value="&lt;font color=&quot;#0000ff&quot;&gt;communication drone/Husky ou passage par le VAB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-41" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(51 , 153 , 255)&quot;&gt;déplacement du Husky&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdlnI0Il5XYoSt5V_vpM-44" value="système de coordonnées pour se repérer" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="185" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lp-3FWoehNaO1ZD1mjEL" name="Page-1">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
