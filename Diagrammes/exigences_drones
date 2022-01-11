@@ -1,1 +1,253 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T15:38:25.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.3" etag="mrHtgJ3tQYhkfJYzcqPk" type="github"><diagram id="OM3lx3goNTmFPO1qKr1K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-11T16:13:07.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YBsEugWfj6G7JKGSzAgI" version="16.2.3" type="github">
+  <diagram id="OM3lx3goNTmFPO1qKr1K" name="Page-1">
+    <mxGraphModel dx="1616" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-43" target="ES-EeXoTM_ZExigbFJbH-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-43" target="ES-EeXoTM_ZExigbFJbH-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-43" target="ES-EeXoTM_ZExigbFJbH-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-43" value="Détecter les pièges" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-47" target="ES-EeXoTM_ZExigbFJbH-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-47" target="ES-EeXoTM_ZExigbFJbH-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-47" target="ES-EeXoTM_ZExigbFJbH-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-47" target="ES-EeXoTM_ZExigbFJbH-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-47" target="ES-EeXoTM_ZExigbFJbH-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-47" value="Se déplacer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-50" target="ES-EeXoTM_ZExigbFJbH-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-50" target="ES-EeXoTM_ZExigbFJbH-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-50" value="Désamorcer les pièges" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-52" target="ES-EeXoTM_ZExigbFJbH-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-52" value="aucun calcul ou traitement sur le drone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-58" target="ES-EeXoTM_ZExigbFJbH-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-58" value="Drone Anafi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-61" target="ES-EeXoTM_ZExigbFJbH-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-61" target="ES-EeXoTM_ZExigbFJbH-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-61" value="grâce à la couleur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-66" target="ES-EeXoTM_ZExigbFJbH-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-66" target="ES-EeXoTM_ZExigbFJbH-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-66" target="ES-EeXoTM_ZExigbFJbH-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-66" value="contrôle de l&#39;utilisateur via la &lt;b&gt;caméra&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-70" target="ES-EeXoTM_ZExigbFJbH-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000FF;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-70" target="ES-EeXoTM_ZExigbFJbH-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-70" target="ES-EeXoTM_ZExigbFJbH-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-70" value="il reçoit la position après détection par un Husky" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-72" target="ES-EeXoTM_ZExigbFJbH-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-72" value="F1_Husky" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-74" target="ES-EeXoTM_ZExigbFJbH-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-74" value="&lt;font color=&quot;#000000&quot;&gt;demande à l&#39;utilisateur si c&#39;est un piège&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-75" target="ES-EeXoTM_ZExigbFJbH-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-75" value="validation de l&#39;utilisateur" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-76" value="&lt;font color=&quot;#3333ff&quot;&gt;cf. communication Drone/VAB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-77" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;caméra&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#3333FF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-79" target="ES-EeXoTM_ZExigbFJbH-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-79" value="Envoie de l&#39;image au VAB" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-81" value="&lt;font color=&quot;#0000ff&quot;&gt;communication drone/Husky ou passage par le VAB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-82" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(51 , 153 , 255)&quot;&gt;déplacement du drone&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-83" value="système de coordonnées pour se repérer" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="185" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#0000FF;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-86" target="ES-EeXoTM_ZExigbFJbH-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-86" value="par défaut ; stratégie pour couvrir toute la zone" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-88" target="ES-EeXoTM_ZExigbFJbH-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-88" value="par commande de l&#39;utilisateur" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-90" target="ES-EeXoTM_ZExigbFJbH-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-90" value="par demande des Husky" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-91" value="&lt;font color=&quot;#0000ff&quot;&gt;cf communication Husky/drones&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="590" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-92" value="&lt;font color=&quot;#3333ff&quot;&gt;cf. communication Drone/VAB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-93" value="algorithme de déplacement qui passe par le VAB (on ne peut faire tourner aucun algo sur le drone)&lt;br&gt;(il existe de tels algorithmes déjà codés)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-98" target="ES-EeXoTM_ZExigbFJbH-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-98" target="ES-EeXoTM_ZExigbFJbH-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-98" target="ES-EeXoTM_ZExigbFJbH-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-98" value="&lt;font color=&quot;#000000&quot;&gt;lire les QR Code&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-99" value="&quot;fouiller le cube&quot; pour trouver le QRC" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-100" value="envoie du QRC au VAB (le drone ne peut lire le QCR)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-103" target="ES-EeXoTM_ZExigbFJbH-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-103" value="Se poser sur le cube (ou autre action demandée)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1050" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-104" value="vérifier que l&#39;atterrissage est possible, calcul de l&#39;emplacement précis, algorithme pour se poser à un endroit précis" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1035" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-106" value="envoie de la position aux Husky pour qu&#39;ils le désactivent&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-108" value="prise en photo du QRC" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="305" y="865" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-110" value="&lt;font color=&quot;#0000ff&quot;&gt;La communication entre drone et VAB doit être parfaite&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-111" target="ES-EeXoTM_ZExigbFJbH-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-111" value="Autonomie ; il doit fonctionner durant toute l&#39;expérience" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-113" target="ES-EeXoTM_ZExigbFJbH-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-113" value="autonomie Anafi=25 minutes, donc le drone devra revenir au grand minimum 1 fois à la base pour changer de batterie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-285" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-115" value="Algorithme pour un retour automatique après 20 minutes de vol ou si la batterie est à moins de 20%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-285" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-117" target="ES-EeXoTM_ZExigbFJbH-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-117" value="Envoie des images au VAB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-121" value="&lt;font color=&quot;#3333ff&quot;&gt;cf. communication Drone/VAB avec notification sur l&#39;écran du VAB quand une photo est envoyé&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-55" width="97" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-123" value="altitude fixé (un drone sera plus haut que l&#39;autre)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ES-EeXoTM_ZExigbFJbH-126" target="ES-EeXoTM_ZExigbFJbH-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-126" value="détection et évitement des obstacles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-129" value="algorithme de contournement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ES-EeXoTM_ZExigbFJbH-131" value="transmission du flux vidéo en direct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
