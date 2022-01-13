@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T17:17:27.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="J0zU9WFEwijbkFYP3Bev" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-13T17:18:31.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="_AWzfDLnuTiQ5nlbsp5L" version="16.2.4" type="github">
   <diagram id="mqIu0kVWCFD8XjfhRVp7" name="Page-1">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LuBmTEL4gwaZJt9vlZNx-7" value="Interfaces graphiques" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LuBmTEL4gwaZJt9vlZNx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LuBmTEL4gwaZJt9vlZNx-9" target="LuBmTEL4gwaZJt9vlZNx-17">
           <mxGeometry relative="1" as="geometry" />
