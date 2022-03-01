@@ -1,0 +1,3 @@
+/home/alban/CodeQR_PIE/build/CMakeFiles/rebuild_cache.dir
+/home/alban/CodeQR_PIE/build/CMakeFiles/edit_cache.dir
+/home/alban/CodeQR_PIE/build/CMakeFiles/barcode_scaner.dir
