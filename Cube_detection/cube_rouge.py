@@ -8,7 +8,7 @@ import cv2 as cv
 #à regler en fonction de la caméra
 taille_ref = 250
 #Altitude/distance en metre à l'objet
-d=0.3
+d=0.5
 #Taille de l'objet à detecter en metre
 taille = 0.2
 #Filtre de couleur, ici le rouge
@@ -21,9 +21,9 @@ MAX_V = 255
 MIN2_H = 0
 MAX2_H= 8
 #Tolerance sur la taille de l'objet (>=1), facteur multiplicatif
-tolerance=1.5
+tolerance=5
 #Nombre d'images par seconde qu'on veut traiter
-n_fps = 30
+n_fps = 5
 
 
 #######PARAMETRES CALCULES###############
@@ -77,7 +77,10 @@ def detec_image(img):
 
                 if( coherance_taille(hull) ) :
                     #rajoute le centre
-                    centres.append(cv.moments(contours[i]))
+                    M = cv.moments(hull)
+                    cX = int(M["m10"] / M["m00"])
+                    cY = int(M["m01"] / M["m00"])
+                    centres.append( [cX,cY] )
                     # Dessine et enregistre l'image en sortie
                     isClosed = True
                     # Blue color in BGR
@@ -95,7 +98,7 @@ def detec_image(img):
 
 #######MAIN##########
 
-cap = cv.VideoCapture('Ressources/ex_1.mp4')
+cap =cv.VideoCapture(0)
 
 w = int(cap.get(3))
 h = int(cap.get(4))
@@ -105,23 +108,68 @@ print("Largeur video : ",w)
 print("Hauteur video : ", h)
 print("Nombre de fps : ", fps)
 
-fourcc = cv.VideoWriter_fourcc('m', 'p', '4', 'v')
-out_capture = cv.VideoWriter('Sortie/ex_1_s.mp4',fourcc,30,(w,h))
-out_seuil = cv.VideoWriter('Sortie/ex_1_seuil.mp4',fourcc,30,(w,h))
-ret=True
+# Check if the webcam is opened correctly
+if not cap.isOpened():
+    raise IOError("Cannot open webcam")
 
 cpt=0
-while (ret):
-    cpt+=1
+while True:
     ret, frame = cap.read()
-    if(cpt > fps//n_fps ):
-        if(ret):
-            cont, seuil, centres = detec_image(frame)
-            out_capture.write(cont)
-            out_seuil.write(seuil)
+    cpt+=1
+    if(cpt > fps// n_fps):
+        cont, seuil, centres = detec_image(frame)
+        #cont contient l'image avec les contours
+        #seuil contient l'image à laquelle on a appliqué le filtre
+        #centre contient les centres des cubes
+        cv.imshow('Input',cont)
+        print("Centres des cubes : ", centres)
         cpt=0
 
+    c = cv.waitKey(1)
+    if c == 27:
+        break
 
 cap.release()
-out_capture.release()
-out_seuil.release()
+cv.destroyAllWindows()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
